@@ -6,4 +6,3 @@ script:
     - npm install
     - touch index.html
     - echo "Hola Mundo!" >> index.html
-    - cat noexiste.txt
