@@ -1,4 +1,4 @@
 script:
   touch index.html
   echo "Hola Mundo!" >> index.html
-  rm noexiste.txt
+  cat noexiste.txt
