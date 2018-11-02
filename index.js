@@ -10,6 +10,10 @@ app.get('/fox', function (req, res) {
     res.send('<iframe width="560" height="315" src="https://www.youtube.com/embed/jofNR_WkoCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
 });
 
+app.get('/users/:userId/books/:bookId', function (req, res) {
+  res.send(req.params.userId)
+})
+
 app.listen(PORT, function () {
     console.log('Server is running, port ' + PORT);
 });
