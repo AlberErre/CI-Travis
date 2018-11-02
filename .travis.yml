@@ -1,2 +1,3 @@
-touch index.html
-echo "Hola Mundo!" >> index.html
+script:
+  touch index.html
+  echo "Hola Mundo!" >> index.html
