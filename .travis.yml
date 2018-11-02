@@ -1,4 +1,9 @@
+language: node_js
+node_js:
+    - "node"
+    - "7"
 script:
-  touch index.html
-  echo "Hola Mundo!" >> index.html
-  cat noexiste.txt
+    - npm install
+    - touch index.html
+    - echo "Hola Mundo!" >> index.html
+    - cat noexiste.txt
